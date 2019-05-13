@@ -101,7 +101,9 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-	HAL_Delay(200);
+
+	// Increase Delay
+	HAL_Delay(300);
 
     /* USER CODE BEGIN 3 */
   }
